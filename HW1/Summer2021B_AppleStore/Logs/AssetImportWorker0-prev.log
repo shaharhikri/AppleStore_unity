@@ -1,0 +1,2048 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.14f1 (51d2f824827f) revision 5362424'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1151; Version 2009; 64bit' Language: 'he' Physical Memory: 16148 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Shahar/Desktop/Summer2021B_2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51015
+Successfully changed project path to: C:/Users/Shahar/Desktop/Summer2021B_2
+C:/Users/Shahar/Desktop/Summer2021B_2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 36.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.14f1 (51d2f824827f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Shahar/Desktop/Summer2021B_2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   27.21.14.6231
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002290 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 33.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.265 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1266ms)
+		BeginReloadAssembly (58ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (514ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (221ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (199ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004490 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.237 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1238ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (994ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (367ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (368ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (292ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1404 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.8 MB.
+System memory in use after: 67.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1856.
+Total: 6.107300 ms (FindLiveObjects: 0.143200 ms CreateObjectMapping: 0.062100 ms MarkObjects: 5.558800 ms  DeleteObjects: 0.341400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Apple_store/Materials/white_simple_door_texture.mat
+  artifactKey: Guid(3f0ec84e65dea2945800fbd0e6b05b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store/Materials/white_simple_door_texture.mat using Guid(3f0ec84e65dea2945800fbd0e6b05b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ed583e5daf3b4bd6c24210457ff694') in 0.142129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Apple_store/Materials/AppleLogoMaterial 1.mat
+  artifactKey: Guid(6659fe9a786001f47a440970ec0b8145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store/Materials/AppleLogoMaterial 1.mat using Guid(6659fe9a786001f47a440970ec0b8145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afbd5938e04dcec3e90836fe36d6a72e') in 0.038468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.352013 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '2296f33ad68534ca9d8c94fcbc1bcacb') in 0.774130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.141099 seconds.
+  path: Assets/Apple_store 1/Prefabs/Boxes
+  artifactKey: Guid(021bb85ee20f2364193cff79a4f48e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/Boxes using Guid(021bb85ee20f2364193cff79a4f48e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5d68f6e59de176fb4565a53bb386fa') in 0.012070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Apple_store 1/Prefabs/Boxes/AirTagsBox.prefab
+  artifactKey: Guid(94c8d83c1363ee0439a758cbe480d0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/Boxes/AirTagsBox.prefab using Guid(94c8d83c1363ee0439a758cbe480d0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8671b2c624376dbafe924f099e822cae') in 0.066394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000807 seconds.
+  path: Assets/Apple_store 1/Prefabs/Boxes/iPhoneBox.prefab
+  artifactKey: Guid(7615baf2740aa2d4ba3ab3be228b2c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/Boxes/iPhoneBox.prefab using Guid(7615baf2740aa2d4ba3ab3be228b2c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b993e238c22415d7e26fdf1008aef16c') in 0.035946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001334 seconds.
+  path: Assets/Apple_store 1/Prefabs/Boxes/AirPodsBox.prefab
+  artifactKey: Guid(1c4b6c746d7835c4d9fa11c77f65e8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/Boxes/AirPodsBox.prefab using Guid(1c4b6c746d7835c4d9fa11c77f65e8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c126a6961270db859335d34a9a6426') in 0.052640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Apple_store 1/Prefabs/Boxes/iPadBox.prefab
+  artifactKey: Guid(02fecedb9ba025244aa08f5b58122dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/Boxes/iPadBox.prefab using Guid(02fecedb9ba025244aa08f5b58122dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e56e45d27e80f4a6c3804ae3b3df04') in 0.049701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Apple_store 1/Prefabs/Boxes/MacBookBox.prefab
+  artifactKey: Guid(8e5670e4f102bfe41a0ada39d94b0d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/Boxes/MacBookBox.prefab using Guid(8e5670e4f102bfe41a0ada39d94b0d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b13c3d19baeff173c55528865c99a81') in 0.059038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.361507 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: 'c16cd28481144a3aec876a93da9e405e') in 0.654179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.039093 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: 'a3aa753d53d0dc8e319a54720ad565ef') in 0.599779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 659.732083 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '98705a83fb5be0582d8c2c66cee76a87') in 0.580781 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011416 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.492 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2492ms)
+		BeginReloadAssembly (288ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (119ms)
+		EndReloadAssembly (2031ms)
+			LoadAssemblies (199ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (920ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (612ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (479ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1398 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.9 MB.
+System memory in use after: 87.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1904.
+Total: 5.123700 ms (FindLiveObjects: 0.635800 ms CreateObjectMapping: 0.377800 ms MarkObjects: 4.079000 ms  DeleteObjects: 0.027500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 761.305658 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '8fb86f2d3ba7591f49971362f779888f') in 0.629893 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010350 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.858 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2859ms)
+		BeginReloadAssembly (324ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (2360ms)
+			LoadAssemblies (331ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (930ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (119ms)
+			SetupLoadedEditorAssemblies (745ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (574ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1398 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.2 MB.
+System memory in use after: 87.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1908.
+Total: 8.098100 ms (FindLiveObjects: 1.120800 ms CreateObjectMapping: 0.754500 ms MarkObjects: 6.156400 ms  DeleteObjects: 0.057600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 491.306602 seconds.
+  path: Assets/BasicBandit/Basic_Bandit.fbx
+  artifactKey: Guid(fe55e5a0c1bcd72488aa4508bea6f93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasicBandit/Basic_Bandit.fbx using Guid(fe55e5a0c1bcd72488aa4508bea6f93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f604ac658ef8e76dfeade1318bf2c331') in 0.152910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/BasicBandit/Basic_BanditPrefab.prefab
+  artifactKey: Guid(0a36d45e1b007e14b884de828f3b6938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasicBandit/Basic_BanditPrefab.prefab using Guid(0a36d45e1b007e14b884de828f3b6938) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: 'be776e49d5da0e97c4eedb1747785626') in 0.057231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.961967 seconds.
+  path: Assets/BasicBandit/Materials
+  artifactKey: Guid(bd134167902074547b450ff309eeb1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasicBandit/Materials using Guid(bd134167902074547b450ff309eeb1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7faa5e48e4b62a16f1f349077a32ac4f') in 0.009644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036404 seconds.
+  path: Assets/BasicBandit/Materials/BasicBandit_AppleCloth.mat
+  artifactKey: Guid(143c89e5f7b34c74c85343d255acb1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasicBandit/Materials/BasicBandit_AppleCloth.mat using Guid(143c89e5f7b34c74c85343d255acb1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd6552be59e95c1463bc0dc091b0829') in 0.055069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/BasicBandit/Materials/BasicBandit_Cloth.mat
+  artifactKey: Guid(194a8e2f6b2c9474ca67d01b0cd1f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasicBandit/Materials/BasicBandit_Cloth.mat using Guid(194a8e2f6b2c9474ca67d01b0cd1f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91170ef4ced38e3546452c40fad3a707') in 0.040787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/BasicBandit/Materials/BasicBandit_Body.mat
+  artifactKey: Guid(af7ee246303972a4e970cde0512e99f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasicBandit/Materials/BasicBandit_Body.mat using Guid(af7ee246303972a4e970cde0512e99f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b591803c6944c0f574eeb9965d1d866c') in 0.043959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/BasicBandit/Materials/BasicBandit_EyeMAt.mat
+  artifactKey: Guid(b473d2dbc3df47f4180f1e7647543b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasicBandit/Materials/BasicBandit_EyeMAt.mat using Guid(b473d2dbc3df47f4180f1e7647543b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3de836b61e239ee73428aa414f25e4') in 0.026686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 828.241777 seconds.
+  path: Assets/BigFurniturePack/Models/plate.FBX
+  artifactKey: Guid(c790654032b636346b57fc885244fd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/plate.FBX using Guid(c790654032b636346b57fc885244fd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5115f6ac5db2f4831c9a8e0580e449') in 0.055217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/BigFurniturePack/Models/rack_3.FBX
+  artifactKey: Guid(27df19f247bebd344813479f564c4ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/rack_3.FBX using Guid(27df19f247bebd344813479f564c4ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e81c977b3e6a29e2bcb08a61326264') in 0.028219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/BigFurniturePack/Models/rack_5.FBX
+  artifactKey: Guid(fb246b0516d4e7f43b2e77d5ab04ab7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/rack_5.FBX using Guid(fb246b0516d4e7f43b2e77d5ab04ab7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05508f72aa65f48503550367485b2e7') in 0.031544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/BigFurniturePack/Models/torchere_2.FBX
+  artifactKey: Guid(042d18a22e3c49e4abfa4c9417fe72fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/torchere_2.FBX using Guid(042d18a22e3c49e4abfa4c9417fe72fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11d43598e1b4312e068cc32fa726dd5') in 0.053466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000678 seconds.
+  path: Assets/BigFurniturePack/Models/pouf.FBX
+  artifactKey: Guid(844581dbb36fdd242bcdb9cb96aab616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/pouf.FBX using Guid(844581dbb36fdd242bcdb9cb96aab616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3626898abcaebb8152362dd6aacb84e') in 0.054219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/BigFurniturePack/Models/toilet.FBX
+  artifactKey: Guid(ea90797f5a8073e4cbc72f859e3782b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/toilet.FBX using Guid(ea90797f5a8073e4cbc72f859e3782b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b08d0183269bb5a56c5146fd3680a8') in 0.049124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/BigFurniturePack/Models/vase_1.FBX
+  artifactKey: Guid(c2ed07c31edb05049bb78864d157eac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/vase_1.FBX using Guid(c2ed07c31edb05049bb78864d157eac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0e72f8fae8e656f01789023420da36') in 0.066489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/BigFurniturePack/Models/torchere_1.FBX
+  artifactKey: Guid(f53ba428acbc8c240b51c227ff0304b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/torchere_1.FBX using Guid(f53ba428acbc8c240b51c227ff0304b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1094e86bcfb915f88a70a90388b20e4') in 0.049197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/BigFurniturePack/Models/table_2.FBX
+  artifactKey: Guid(406a820c0a319d444a69a40d56b8be03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/table_2.FBX using Guid(406a820c0a319d444a69a40d56b8be03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca33089d0306ff2454bf1187c0e4fd7') in 0.052435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/BigFurniturePack/Models/sofa_3.FBX
+  artifactKey: Guid(dd1e49b0a3e0dd449a7cb028f0aae903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/sofa_3.FBX using Guid(dd1e49b0a3e0dd449a7cb028f0aae903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83b39bf9731b26aafcfbe70346e03f9') in 0.153150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/BigFurniturePack/Models/sofa_2.FBX
+  artifactKey: Guid(4be90c5d9ce40a648bb37474c93d9c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/sofa_2.FBX using Guid(4be90c5d9ce40a648bb37474c93d9c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2efc953fca4fa795be1b16a7a82c236') in 0.140952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/BigFurniturePack/Models/rack_2.FBX
+  artifactKey: Guid(02153186d1a6199489fb363fb89e5cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/rack_2.FBX using Guid(02153186d1a6199489fb363fb89e5cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260210d6d75d77ed101de7cbdada9c0a') in 0.028292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000644 seconds.
+  path: Assets/BigFurniturePack/Models/rack_1.FBX
+  artifactKey: Guid(821da9cb1c989dd489ae524930f6bb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/rack_1.FBX using Guid(821da9cb1c989dd489ae524930f6bb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4199557025d9aa607347ce647aa7d9') in 0.024316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/BigFurniturePack/Models/sofa_4.FBX
+  artifactKey: Guid(9093dcf6b487b4445b317d8469e66af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/sofa_4.FBX using Guid(9093dcf6b487b4445b317d8469e66af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd56242ca0a19d0a69033bdb3141390') in 0.162902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/BigFurniturePack/Models/vase_2.FBX
+  artifactKey: Guid(b4c9d405d7440f54497e83da64d11c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/vase_2.FBX using Guid(b4c9d405d7440f54497e83da64d11c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d33402e0c728a61090a8d33fe673326') in 0.066916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/BigFurniturePack/Models/tv_table_1.FBX
+  artifactKey: Guid(2053965ddb261d94391546f869ad45c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/tv_table_1.FBX using Guid(2053965ddb261d94391546f869ad45c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cbaac6eb8c2fc1818e7d84064aff4e') in 0.131828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/BigFurniturePack/Models/torchere_3.FBX
+  artifactKey: Guid(89ab013431757bf46ba4b32a1f1008bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/torchere_3.FBX using Guid(89ab013431757bf46ba4b32a1f1008bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a87a2d42fa8222f608d89ff709828c2') in 0.080597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/BigFurniturePack/Models/torchere_4.FBX
+  artifactKey: Guid(f088e8ad86266534d8befc554879f594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/torchere_4.FBX using Guid(f088e8ad86266534d8befc554879f594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3f123d9ba09f0b586102e81af4f486') in 0.071816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/BigFurniturePack/Models/sofa_1.FBX
+  artifactKey: Guid(b071b1fb63a0b2446ad813578ad174cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/sofa_1.FBX using Guid(b071b1fb63a0b2446ad813578ad174cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8892f8f0aedc3b97b27a3c8c765a174') in 0.103482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/BigFurniturePack/Models/tv_table_3.FBX
+  artifactKey: Guid(66b8701c20e350a4691a3d9bde16ddb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/tv_table_3.FBX using Guid(66b8701c20e350a4691a3d9bde16ddb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f66258b643e891bca2638082d08c1b') in 0.057959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/BigFurniturePack/Models/table_1.FBX
+  artifactKey: Guid(e1978285e2f37954d90e9a40b85e6ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/table_1.FBX using Guid(e1978285e2f37954d90e9a40b85e6ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9519f6a7e33d9026b64578d6edb4fc2f') in 0.096518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/BigFurniturePack/Models/rack_4.FBX
+  artifactKey: Guid(db2ded63075b6cd41aaa7d8a85da232d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/rack_4.FBX using Guid(db2ded63075b6cd41aaa7d8a85da232d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92016387ec87c3f099cfc8be3aa9cee6') in 0.035583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/BigFurniturePack/Models/shower.FBX
+  artifactKey: Guid(55b6504ee3e22e44f81ec10519df607d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/shower.FBX using Guid(55b6504ee3e22e44f81ec10519df607d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ddc333fea6b7b757d58c71ae544d179') in 0.161184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000603 seconds.
+  path: Assets/BigFurniturePack/Models/tv_table_2.FBX
+  artifactKey: Guid(78b6f28ce2ffb9b47a8f1e7bdec4184b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/tv_table_2.FBX using Guid(78b6f28ce2ffb9b47a8f1e7bdec4184b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c88d39c03c19f7d7acaac9db4930ec') in 0.101506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.546371 seconds.
+  path: Assets/BigFurniturePack/Models/vase_3.FBX
+  artifactKey: Guid(a23adc725dbf4564c9a748e2d6719d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/vase_3.FBX using Guid(a23adc725dbf4564c9a748e2d6719d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f8080f71f1a8d1dd9422c6be636645') in 0.026911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/BigFurniturePack/Models/vase_4.FBX
+  artifactKey: Guid(e5b84b736b834804dbc2ba73a5a59876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/vase_4.FBX using Guid(e5b84b736b834804dbc2ba73a5a59876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f6ebcfa4b82cd351f971c342e472bc') in 0.023651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/BigFurniturePack/Models/vase_5.FBX
+  artifactKey: Guid(0926ad3fcc57bcd48b05b3fa80c84241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/vase_5.FBX using Guid(0926ad3fcc57bcd48b05b3fa80c84241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20dcb85bf233f6a2d90085c5c55deaf4') in 0.023830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/BigFurniturePack/Models/wall_lighter.FBX
+  artifactKey: Guid(2169bb8629cdb1b4a80d043c9c19501a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/wall_lighter.FBX using Guid(2169bb8629cdb1b4a80d043c9c19501a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33301b128710636f787a8926442a6154') in 0.071777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/BigFurniturePack/Models/washbasin.FBX
+  artifactKey: Guid(2a7850605a17f504bbfdfaa591d5b419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Models/washbasin.FBX using Guid(2a7850605a17f504bbfdfaa591d5b419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515fee11f1fb6e19c4e2055c0dbc64eb') in 0.170823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.460152 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Bathroom
+  artifactKey: Guid(caf1620eb571a6f4c8d5edec9eb7e582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Bathroom using Guid(caf1620eb571a6f4c8d5edec9eb7e582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b2988c7c0d8b42ea7185aa31e82162') in 0.006143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041985 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Bathroom/brush.prefab
+  artifactKey: Guid(ae4a04ebba3b51f4bb3a2c49687f5621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Bathroom/brush.prefab using Guid(ae4a04ebba3b51f4bb3a2c49687f5621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f69a783cccaa0b15a7c4ffe16eb50b5') in 0.023133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Bathroom/shower.prefab
+  artifactKey: Guid(f47c3332cc1e27e429e62f14a27f814d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Bathroom/shower.prefab using Guid(f47c3332cc1e27e429e62f14a27f814d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a8cdc611d2ad3f169c3b186032c22d') in 0.143059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Bathroom/drying_with_towel.prefab
+  artifactKey: Guid(5c5d675157a1a8c4bb3a499600b460f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Bathroom/drying_with_towel.prefab using Guid(5c5d675157a1a8c4bb3a499600b460f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583d9c09f7eb9503c39bb180765e1cdb') in 0.012131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Bathroom/toilet.prefab
+  artifactKey: Guid(2c528509df862ef449544165d18b2dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Bathroom/toilet.prefab using Guid(2c528509df862ef449544165d18b2dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456564e90364d639865f5cc5b8f9d12c') in 0.019035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Bathroom/washbasin.prefab
+  artifactKey: Guid(47af50246352ed14da4ade618d736175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Bathroom/washbasin.prefab using Guid(47af50246352ed14da4ade618d736175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2dacda5524edef28704e02ffc90ba8a') in 0.030820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Bathroom/flasket.prefab
+  artifactKey: Guid(5c9ab8dcefc861c4c962bbf326d5abb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Bathroom/flasket.prefab using Guid(5c9ab8dcefc861c4c962bbf326d5abb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6a4e2f32a982dc645cd8a296ecd208') in 0.038433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.860455 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Beds
+  artifactKey: Guid(f850529fc955e864896503b184cc7c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Beds using Guid(f850529fc955e864896503b184cc7c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5133d01c1691f1d2b7433f76c6c0b909') in 0.006963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038716 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Beds/bed_1.prefab
+  artifactKey: Guid(a11d318bf37c01d489a19dc2dc33ed7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Beds/bed_1.prefab using Guid(a11d318bf37c01d489a19dc2dc33ed7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56fca0be8e456cfa612706338340e17c') in 0.024300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Beds/bed_2.prefab
+  artifactKey: Guid(b4bf5e3a00974a94ea1549814fc16ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Beds/bed_2.prefab using Guid(b4bf5e3a00974a94ea1549814fc16ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248569012419e63be4f285f9a99e2026') in 0.021328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000740 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Beds/bed_3.prefab
+  artifactKey: Guid(b3cad47395084a24ab9316d8de9eba94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Beds/bed_3.prefab using Guid(b3cad47395084a24ab9316d8de9eba94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554328946510e0b78179a04571e0b609') in 0.028796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.105210 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Cabinets&Racks
+  artifactKey: Guid(bd06282acfb51db45908ae25a896c79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Cabinets&Racks using Guid(bd06282acfb51db45908ae25a896c79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e3e5588a271bcfbe7631b94bfac78b') in 0.011192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046916 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Cabinets&Racks/cabinet_1.prefab
+  artifactKey: Guid(2efb098e46ba3e44cae4f1ba84005732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Cabinets&Racks/cabinet_1.prefab using Guid(2efb098e46ba3e44cae4f1ba84005732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4726ecc904df82a8b15cc37580c33d8') in 0.016050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Cabinets&Racks/rack_2.prefab
+  artifactKey: Guid(33dd0111778766843be1b10fb0c038ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Cabinets&Racks/rack_2.prefab using Guid(33dd0111778766843be1b10fb0c038ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f33a4fe1f2f190e6aaf78449ea7266e') in 0.021937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Cabinets&Racks/cabinet_3.prefab
+  artifactKey: Guid(df7f243bd429cd5408f1ad2978c21cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Cabinets&Racks/cabinet_3.prefab using Guid(df7f243bd429cd5408f1ad2978c21cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1701339e6725f36808cd25e80e63d13d') in 0.026862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Cabinets&Racks/rack_4.prefab
+  artifactKey: Guid(969e14f1112395b4b816c3c2606022bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Cabinets&Racks/rack_4.prefab using Guid(969e14f1112395b4b816c3c2606022bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e5911701596482ebfa55ca8b78006f') in 0.032300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Cabinets&Racks/cabinet_2.prefab
+  artifactKey: Guid(6cb4f5f750494f740a101f4c67f3f2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Cabinets&Racks/cabinet_2.prefab using Guid(6cb4f5f750494f740a101f4c67f3f2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85a78c7d12978fe9222c8a73db3c7e9') in 0.028284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Cabinets&Racks/rack_5.prefab
+  artifactKey: Guid(166c46565a20cbd48b376b1082b8376b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Cabinets&Racks/rack_5.prefab using Guid(166c46565a20cbd48b376b1082b8376b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01391f910f35f5cd37d03da45cf2912') in 0.017752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Cabinets&Racks/rack_3.prefab
+  artifactKey: Guid(8fc847fdd92983f43b5183ed20e269a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Cabinets&Racks/rack_3.prefab using Guid(8fc847fdd92983f43b5183ed20e269a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f59e389f7e96f8d56f76bcc9f63751') in 0.030810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Cabinets&Racks/rack_1.prefab
+  artifactKey: Guid(51df288df6d8c864aae27c801a5fd8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Cabinets&Racks/rack_1.prefab using Guid(51df288df6d8c864aae27c801a5fd8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9e2ecdce98dc2741cf1740da7954fc') in 0.026589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.623984 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Lights
+  artifactKey: Guid(e2e6d1a423fcdad4d93f8abfd05a4abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Lights using Guid(e2e6d1a423fcdad4d93f8abfd05a4abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a744959d1bd0bd274206534d06c83ddc') in 0.006243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043224 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Lights/torchere_1.prefab
+  artifactKey: Guid(f4383bc7fc56a1e44b009cab877fd6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Lights/torchere_1.prefab using Guid(f4383bc7fc56a1e44b009cab877fd6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179b92ca02f230dafb1c26d1100851cd') in 0.018644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Lights/torchere_4.prefab
+  artifactKey: Guid(ab7e43b46e30f5a409fe73d7d545bfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Lights/torchere_4.prefab using Guid(ab7e43b46e30f5a409fe73d7d545bfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e41ff1408aa9f6da0b0a649ffc6cac') in 0.011958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Lights/wall_lighter.prefab
+  artifactKey: Guid(abf9c9ddc7f2f9d4fb450f472036aee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Lights/wall_lighter.prefab using Guid(abf9c9ddc7f2f9d4fb450f472036aee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5665f7e33fa8c175287565f0f1c249d1') in 0.011013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Lights/torchere_2.prefab
+  artifactKey: Guid(5ab7df4388e0265499e7e58faf1d6aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Lights/torchere_2.prefab using Guid(5ab7df4388e0265499e7e58faf1d6aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156754aca4107626367de888eb163e50') in 0.018776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Lights/torchere_3.prefab
+  artifactKey: Guid(bac686a178055394f9dfa2e461faba8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Lights/torchere_3.prefab using Guid(bac686a178055394f9dfa2e461faba8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f74b13b9ae7063c15330a5c9b46022') in 0.010957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.047551 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Mirrors
+  artifactKey: Guid(56758e6d638e1644792e29545140ad8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Mirrors using Guid(56758e6d638e1644792e29545140ad8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8d7d676df8304b15886c7b1b93acb7') in 0.006573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.104212 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Mirrors/mirror_1.prefab
+  artifactKey: Guid(8920164852daafb4ea1cbf5c4f29f9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Mirrors/mirror_1.prefab using Guid(8920164852daafb4ea1cbf5c4f29f9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b4e1f5cca453e663f45cf2295d61a3') in 0.015770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Mirrors/mirror_3.prefab
+  artifactKey: Guid(396d41ee955979149b21a20470890097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Mirrors/mirror_3.prefab using Guid(396d41ee955979149b21a20470890097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6804ac5377cc9e61d0f9fd5aca84cc7') in 0.012466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Mirrors/mirror_2.prefab
+  artifactKey: Guid(5692ea7adcac2734186a38415b80ea09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Mirrors/mirror_2.prefab using Guid(5692ea7adcac2734186a38415b80ea09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7904d89ff3dbdb51ab3c864213942ca') in 0.028694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Mirrors/mirror_4.prefab
+  artifactKey: Guid(13756c1016e72ca44ae334c3465ca020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Mirrors/mirror_4.prefab using Guid(13756c1016e72ca44ae334c3465ca020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5952a6c5a0f95ecb7445a76b956558e9') in 0.036970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.511705 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Modular kitchen
+  artifactKey: Guid(8fa2a3bbb791db5469073bb44e90868a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Modular kitchen using Guid(8fa2a3bbb791db5469073bb44e90868a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efd44c0785a6810e31a670eb7e6a7cf') in 0.013428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033867 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Modular kitchen/kitchen_shelf_1.prefab
+  artifactKey: Guid(bab2957dd377aea42995c59df2777846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Modular kitchen/kitchen_shelf_1.prefab using Guid(bab2957dd377aea42995c59df2777846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59b6398f6d76af166076dafe8a1f794') in 0.027635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Modular kitchen/kitchen_shelf_corner.prefab
+  artifactKey: Guid(42906078a1d49c5458d19c65a691f015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Modular kitchen/kitchen_shelf_corner.prefab using Guid(42906078a1d49c5458d19c65a691f015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e306b163df4b53be28d654a4432aaade') in 0.013015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Modular kitchen/modular_kitchen_table_4.prefab
+  artifactKey: Guid(69876b662dbfff945b3239cdac3b1811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Modular kitchen/modular_kitchen_table_4.prefab using Guid(69876b662dbfff945b3239cdac3b1811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3cab5499068d41942d90e9df2033d88') in 0.030943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Modular kitchen/kitchen_shelf_corner_INV.prefab
+  artifactKey: Guid(d6914444abecec94792cba630fe392e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Modular kitchen/kitchen_shelf_corner_INV.prefab using Guid(d6914444abecec94792cba630fe392e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7824579925048d3d0e7c5ccd76985ead') in 0.018556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001320 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Modular kitchen/modular_kitchen_table_3.prefab
+  artifactKey: Guid(66e6284526c4a2645a28827f82a71cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Modular kitchen/modular_kitchen_table_3.prefab using Guid(66e6284526c4a2645a28827f82a71cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0028a95c47cf78fd2b0bf99e0d25281d') in 0.020261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001818 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Modular kitchen/kitchen_shelf_2.prefab
+  artifactKey: Guid(da7880317cad2524a93cbb6056bbc922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Modular kitchen/kitchen_shelf_2.prefab using Guid(da7880317cad2524a93cbb6056bbc922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e819385572a233f408a4c4a97ed3a76') in 0.029434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Modular kitchen/kitchen_shelf_3.prefab
+  artifactKey: Guid(bcf7f5659c394f04f947cb579e955ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Modular kitchen/kitchen_shelf_3.prefab using Guid(bcf7f5659c394f04f947cb579e955ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7158a29b474b929c8d3b0b8c7628ad0f') in 0.019036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Modular kitchen/modular_kitchen_table_1.prefab
+  artifactKey: Guid(8bc0238f058e4164f9eb9123a975cbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Modular kitchen/modular_kitchen_table_1.prefab using Guid(8bc0238f058e4164f9eb9123a975cbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3638dc4da5cb1f9a0846e8d5ff2e4379') in 0.031265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Modular kitchen/modular_kitchen_table_4_INV.prefab
+  artifactKey: Guid(3ef68bc6de3dfab4daadb71aec4656bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Modular kitchen/modular_kitchen_table_4_INV.prefab using Guid(3ef68bc6de3dfab4daadb71aec4656bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77722c082e4f0eccc8bdc37bdb35c857') in 0.030484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000685 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Modular kitchen/modular_kitchen_table_2.prefab
+  artifactKey: Guid(7d0701320ee303d439feed9498b8d336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Modular kitchen/modular_kitchen_table_2.prefab using Guid(7d0701320ee303d439feed9498b8d336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9531a2f5f2cdad04b2081c0dbaa98247') in 0.021872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.183615 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Sofas&Chairs
+  artifactKey: Guid(2544591c357014b4986d8bab85b1ec6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Sofas&Chairs using Guid(2544591c357014b4986d8bab85b1ec6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e184ab5c639275d67aa593e2617cbeda') in 0.021156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Sofas&Chairs/kitchen_chair_1.prefab
+  artifactKey: Guid(01dfb375646cba84e9b92e2cedf7d149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Sofas&Chairs/kitchen_chair_1.prefab using Guid(01dfb375646cba84e9b92e2cedf7d149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85debfbd60d7aa18a14ba3ff453aaecc') in 0.035322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000656 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Sofas&Chairs/sofa_3.prefab
+  artifactKey: Guid(272a1dd3343458d45888ea8668d6e2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Sofas&Chairs/sofa_3.prefab using Guid(272a1dd3343458d45888ea8668d6e2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7813b9902ef4b64a3617b01d61816aca') in 0.033988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Sofas&Chairs/chair_1.prefab
+  artifactKey: Guid(d2a377b97363a554a96a26b876de1213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Sofas&Chairs/chair_1.prefab using Guid(d2a377b97363a554a96a26b876de1213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7829834f18c56c5ffea234c2dcdac6b1') in 0.034775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000655 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Sofas&Chairs/sofa_2.prefab
+  artifactKey: Guid(76f69c2044293fc40a066ff85ecb70df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Sofas&Chairs/sofa_2.prefab using Guid(76f69c2044293fc40a066ff85ecb70df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e4ba460ecffdd1bde8e094afdb260c') in 0.023984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Sofas&Chairs/chair_4.prefab
+  artifactKey: Guid(d534d0198c237a043a8e671f0bf2859e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Sofas&Chairs/chair_4.prefab using Guid(d534d0198c237a043a8e671f0bf2859e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c106ab80dba51a1ca0b0a75356af738c') in 0.040376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Sofas&Chairs/pouf.prefab
+  artifactKey: Guid(75c3709e2bf1e9843b30f0c81dbe6b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Sofas&Chairs/pouf.prefab using Guid(75c3709e2bf1e9843b30f0c81dbe6b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44aaf450f251e7f75e894b604795b07a') in 0.033679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Sofas&Chairs/corner_sofa.prefab
+  artifactKey: Guid(3afc3ad1f4025944cb7622a67af41586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Sofas&Chairs/corner_sofa.prefab using Guid(3afc3ad1f4025944cb7622a67af41586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc9a79cb84e42a0e6ff2b6334a82c06') in 0.031032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000667 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Sofas&Chairs/sofa_4.prefab
+  artifactKey: Guid(8cef4c90a64b6564ca61184c68b8d442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Sofas&Chairs/sofa_4.prefab using Guid(8cef4c90a64b6564ca61184c68b8d442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577f025cbb1733ea30e2062c5a9a23d6') in 0.024849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Sofas&Chairs/kitchen_chair_2.prefab
+  artifactKey: Guid(410463ba8bd9a484cb3ab355dc962d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Sofas&Chairs/kitchen_chair_2.prefab using Guid(410463ba8bd9a484cb3ab355dc962d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c97ec65bac9a4a2eaf9b876c3b18dc') in 0.028116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Sofas&Chairs/chair_2.prefab
+  artifactKey: Guid(2de9ad0fa697ed54db49ee8dcbe9d875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Sofas&Chairs/chair_2.prefab using Guid(2de9ad0fa697ed54db49ee8dcbe9d875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfe777996b65976a733911bec239e2f') in 0.029133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Sofas&Chairs/sofa_1.prefab
+  artifactKey: Guid(b75a9f5bde480c848a601653b942291a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Sofas&Chairs/sofa_1.prefab using Guid(b75a9f5bde480c848a601653b942291a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9753d52506554b6bf9c6ab52c5510735') in 0.015884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Sofas&Chairs/chair_3.prefab
+  artifactKey: Guid(71384cbc628fa864eb38a3ce9020699c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Sofas&Chairs/chair_3.prefab using Guid(71384cbc628fa864eb38a3ce9020699c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947c2f2d97a5f19916bfe191e55e545e') in 0.038642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.502381 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Vases
+  artifactKey: Guid(7c1682f5c5b5dbb4ca7becb897fa6c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Vases using Guid(7c1682f5c5b5dbb4ca7becb897fa6c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9589eca5721480d90401a3cc2b05fc43') in 0.012528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052185 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Vases/plate.prefab
+  artifactKey: Guid(da54b27642860c745b145c776f596680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Vases/plate.prefab using Guid(da54b27642860c745b145c776f596680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2375c236cde30f5e077ae60bc9f0a9') in 0.015599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Vases/vase_1.prefab
+  artifactKey: Guid(caa8fd4c881e43744b8164d904df19c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Vases/vase_1.prefab using Guid(caa8fd4c881e43744b8164d904df19c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988fa7928b8f7845ae312b32090f5fcd') in 0.029047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Vases/vase_5.prefab
+  artifactKey: Guid(77cc829851270f641a67e7e2132e861a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Vases/vase_5.prefab using Guid(77cc829851270f641a67e7e2132e861a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775a04865d8799bbe4599da374c9b427') in 0.044837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Vases/vase_2.prefab
+  artifactKey: Guid(c2989b164d4945744a6d12f15bc39c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Vases/vase_2.prefab using Guid(c2989b164d4945744a6d12f15bc39c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c7e28ed07adecf17f63bd31cd8edc5') in 0.020996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Vases/vase_3.prefab
+  artifactKey: Guid(b7768e1703027114b8fb81cb29192dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Vases/vase_3.prefab using Guid(b7768e1703027114b8fb81cb29192dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9b3ec40777290be80ecfac472ecff9') in 0.015533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Vases/vase_4.prefab
+  artifactKey: Guid(1535cfd3cbc7f7c48b4304ca1e26d850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Vases/vase_4.prefab using Guid(1535cfd3cbc7f7c48b4304ca1e26d850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbce76d21ef6378a806445ec2a2e00a') in 0.029908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.076302 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Tables
+  artifactKey: Guid(f6de8545e5d2a4248b18ff6f0a57f95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Tables using Guid(f6de8545e5d2a4248b18ff6f0a57f95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07fbcfb954b4a998b5f1a05a22fe33ac') in 0.005865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.049868 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Tables/coffee_table_1.prefab
+  artifactKey: Guid(6aefd9b8d8cb28f4f87b54d78bf0fca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Tables/coffee_table_1.prefab using Guid(6aefd9b8d8cb28f4f87b54d78bf0fca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9dbeb3c74a2a551e45a476adf22d3d5') in 0.029042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Tables/kitchen_table_1.prefab
+  artifactKey: Guid(4df135dcff5ef7b488faeec987a0fe1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Tables/kitchen_table_1.prefab using Guid(4df135dcff5ef7b488faeec987a0fe1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd4b66f804e81c55679f29d2e9266be') in 0.017552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Tables/table_1.prefab
+  artifactKey: Guid(da90dd5c59fc7b74797111fdae04254f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Tables/table_1.prefab using Guid(da90dd5c59fc7b74797111fdae04254f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea75beb6438732ff480a24e4f1cfe36') in 0.024604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Tables/tv_table_2.prefab
+  artifactKey: Guid(ef18cf68e5c7efc49b863727df55dff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Tables/tv_table_2.prefab using Guid(ef18cf68e5c7efc49b863727df55dff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec624a226d8cd06b6ee400187f75c3a') in 0.017920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Tables/tv_table_1.prefab
+  artifactKey: Guid(dce57d1e50d1fef489ee2d0fe5716701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Tables/tv_table_1.prefab using Guid(dce57d1e50d1fef489ee2d0fe5716701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce13b7e48656ba8dc97e17b74125ead') in 0.025553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Tables/table_2.prefab
+  artifactKey: Guid(89131f46d6bfc864699138153a2cc996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Tables/table_2.prefab using Guid(89131f46d6bfc864699138153a2cc996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385b67196bb276a7254f98061a331471') in 0.016328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Tables/kitchen_table_2.prefab
+  artifactKey: Guid(398008aaa9b8a2e4ebd3860a13db4038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Tables/kitchen_table_2.prefab using Guid(398008aaa9b8a2e4ebd3860a13db4038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca2e16fdf154fd45a2764ddad41bb50') in 0.031274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Tables/coffee_table_3.prefab
+  artifactKey: Guid(b4be6cb63b98d134bacd367e6b052bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Tables/coffee_table_3.prefab using Guid(b4be6cb63b98d134bacd367e6b052bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2393e8dff83826ad694b9e081d0ee210') in 0.028661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Tables/tv_table_3.prefab
+  artifactKey: Guid(275af2b0718fd14458eacd3fc16400a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Tables/tv_table_3.prefab using Guid(275af2b0718fd14458eacd3fc16400a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a97f8f60839d47a0f4d491e88ec07e6') in 0.020358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Tables/coffee_table_2.prefab
+  artifactKey: Guid(3f80adb8cf0fdec4ebee1e2103a3e242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Tables/coffee_table_2.prefab using Guid(3f80adb8cf0fdec4ebee1e2103a3e242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834f8890d21144c29a914dd40473a071') in 0.026130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Tables/coffee_table_4.prefab
+  artifactKey: Guid(395f9d952fa0b6c489ca4a50a9f95953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Tables/coffee_table_4.prefab using Guid(395f9d952fa0b6c489ca4a50a9f95953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f54751c1c2a387a4c9dce92c194c95') in 0.015745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 188.834519 seconds.
+  path: Assets/Apple_store 1/Materials/Apple_Frontoutside_wall_material.mat
+  artifactKey: Guid(1ccbe13cd8695c94694d82d5e97d09f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Materials/Apple_Frontoutside_wall_material.mat using Guid(1ccbe13cd8695c94694d82d5e97d09f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7688d168dd12e898e958743af1630cfd') in 0.028334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Apple_store 1/Materials/Apple_FrontTopoutside_wall_material.mat
+  artifactKey: Guid(ae27a762a26610a4bb06c0a8557b206f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Materials/Apple_FrontTopoutside_wall_material.mat using Guid(ae27a762a26610a4bb06c0a8557b206f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd671248df7f50e966150b961842563d4') in 0.013442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 123.465197 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: 'fb92a25882f3ebe97dc821f097ba1cab') in 0.613147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.138284 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: 'f2ac9950a8f1878c79248736bdc3ebf0') in 0.581461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.423135 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '6ee91a0917e72e06f55a6336b2ce3b3c') in 0.440582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.946282 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '83f35357b1e7fde66c8f764cdfd9da19') in 0.427993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.214198 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: 'e5311184ab559bfea2c777d651eec481') in 0.577005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.543624 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '4204cfb88efc5745508d6c7036420df9') in 0.616730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.555586 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '7d5459f2a3523bef0ef9e68b0dcbd33f') in 0.468131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.291671 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '9c4236561320c3adadf65366b963a20b') in 0.623506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.632819 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '62858baa0aa6c7ab5bab90eefced6c31') in 0.497859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.261959 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: 'e092b870e2bbac252567bb629fbc49ca') in 0.573816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.709806 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '991b7fbb958f8ba6af44f7deff002c1d') in 0.443336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.612894 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: 'aaf49fd8c84afe96d554cd4794cd7304') in 0.635321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.315477 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: 'f76bf7e543730684520709d8437bae2f') in 0.374984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.242090 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '69de828805b2162552ee2b30a1693be5') in 0.513613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.050039 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '0b215f6dd55a5305843ef38761e081fa') in 0.507828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.944972 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '8cb67a333812070da809ec6377c70664') in 0.768729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.343349 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '982b77a8b512614b502128ae99d8fa73') in 0.581102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.530802 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '66378a5aee171e6ad8344267a565172e') in 0.765960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 350.069416 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: 'e1f251b264f437ae1e90df46f61abacc') in 0.377066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.253172 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '3192be0ce040f0437adaefc0371a9002') in 0.695747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.822562 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '7661a2cef723e76634bded23a1cd511e') in 0.635995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.197223 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '561972c3aee3d33cff84c954814aee8f') in 0.730323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.737304 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '64070829ab0b52333a087bcd4a558dd1') in 0.584408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.865148 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: 'b9379c238056899927bbff21aac21470') in 0.757593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.515826 seconds.
+  path: Assets/Apple_store 1/Prefabs/AppleStore.prefab
+  artifactKey: Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple_store 1/Prefabs/AppleStore.prefab using Guid(63ba52561ac82284e8d21f746245059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'WalkFWD' used by the Animation component 'Basic_BanditPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: 'eab8b638d8b25e49dd465fc244db384a') in 0.592792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.554633 seconds.
+  path: Assets/CashRegister/CashRegistr.prefab
+  artifactKey: Guid(c6d7415caa173ba48babdad2009bbb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CashRegister/CashRegistr.prefab using Guid(c6d7415caa173ba48babdad2009bbb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f735eb6aaa2695cf4df0a070939c005e') in 0.281552 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
